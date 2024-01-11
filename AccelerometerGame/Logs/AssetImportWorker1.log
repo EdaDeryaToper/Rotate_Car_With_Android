@@ -1,0 +1,372 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.12f1 (8af3c3e441b1) revision 9106371'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16235 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/eda_t/Unity/AccelerometerGame
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50093
+Successfully changed project path to: C:/Users/eda_t/Unity/AccelerometerGame
+C:/Users/eda_t/Unity/AccelerometerGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 80.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/eda_t/Unity/AccelerometerGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010077 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 83.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Domain Reload Profiling:
+	ReloadAssembly (861ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (598ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (81ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1312ms)
+		BeginReloadAssembly (264ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (162ms)
+		EndReloadAssembly (927ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (56.1 KB). Loaded Objects now: 3849.
+Memory consumption went from 116.8 MB to 116.7 MB.
+Total: 4.675100 ms (FindLiveObjects: 0.301300 ms CreateObjectMapping: 0.236700 ms MarkObjects: 4.055600 ms  DeleteObjects: 0.080400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5747.008268 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Scenes/More cars.png
+  artifactKey: Guid(d12c0013fcfea9e4a9ee272bfaaec870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Scenes/More cars.png using Guid(d12c0013fcfea9e4a9ee272bfaaec870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd42cf4224f3aa7a5f3ba3a7008518cf') in 0.132893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.397927 seconds.
+  path: Assets/Material/AFRC_Env_Mat.mat
+  artifactKey: Guid(69b6e8fa160b23c42a4052f818eb166c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/AFRC_Env_Mat.mat using Guid(69b6e8fa160b23c42a4052f818eb166c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e244cf7793d1613ec5d029741dfb27') in 0.086681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.522959 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures/AFRC_Tex_Emission.png
+  artifactKey: Guid(573a5992a1e562d45a64f56dabbe47ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures/AFRC_Tex_Emission.png using Guid(573a5992a1e562d45a64f56dabbe47ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adad525a46566218e0f034b79ff2467d') in 0.035480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.229886 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col2.png
+  artifactKey: Guid(6242e2ca19f64494ba8e4ae07a3a2c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col2.png using Guid(6242e2ca19f64494ba8e4ae07a3a2c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5abdc30875abe3996aa0ae4c31fb74') in 0.026315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col5.png
+  artifactKey: Guid(ee5f07cb504e5b04dbdd32ef7d265c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col5.png using Guid(ee5f07cb504e5b04dbdd32ef7d265c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4c1dc181500c30b7684eaac92a9a1e') in 0.021376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col3.png
+  artifactKey: Guid(f5339e3a5ecdae64aa3afa490a1d892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col3.png using Guid(f5339e3a5ecdae64aa3afa490a1d892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014a1364601efec60a56c5a7bf6148fe') in 0.021169 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007138 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.578 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1579ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1208ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (418ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (528ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3896.
+Memory consumption went from 121.1 MB to 121.0 MB.
+Total: 4.613000 ms (FindLiveObjects: 0.365900 ms CreateObjectMapping: 0.485000 ms MarkObjects: 3.728800 ms  DeleteObjects: 0.031800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 67.871143 seconds.
+  path: Assets/KajamansRoads/Materials/1RoadMob.mat
+  artifactKey: Guid(d13de2fe17705894b8d1881d44165e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Materials/1RoadMob.mat using Guid(d13de2fe17705894b8d1881d44165e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e3caf365563c1498120cf243a0875a') in 0.091731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/KajamansRoads/Materials/6RoadMob.mat
+  artifactKey: Guid(0c77a9b0ac420b847a6657c467b36680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Materials/6RoadMob.mat using Guid(0c77a9b0ac420b847a6657c467b36680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2adb7992184fa3c631e04e8b8d20f2') in 0.046294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/KajamansRoads/Materials/PineMat.mat
+  artifactKey: Guid(6900649d937cbd64584262b080771b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Materials/PineMat.mat using Guid(6900649d937cbd64584262b080771b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058a6db3f4ff967829bf7dceba0f3609') in 0.032845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KajamansRoads/Materials/DirtRoadMat.mat
+  artifactKey: Guid(0e2c7a3736bbcf6429b6c142c6bb36bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Materials/DirtRoadMat.mat using Guid(0e2c7a3736bbcf6429b6c142c6bb36bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0630c9d66a20faabcdfa9a3b65a100') in 0.052399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KajamansRoads/Materials/GuardRailMat.mat
+  artifactKey: Guid(fd7c9158d78c14b43ba4dfda8af7afa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Materials/GuardRailMat.mat using Guid(fd7c9158d78c14b43ba4dfda8af7afa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf05281ba21f311eb58985dd2d1b9b34') in 0.035368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/KajamansRoads/Materials/6RoadMat.mat
+  artifactKey: Guid(81d5ef976824ab9448707292bc4a5884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Materials/6RoadMat.mat using Guid(81d5ef976824ab9448707292bc4a5884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb7968c9b04d17bfbe2d1f8fd134598') in 0.033430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/KajamansRoads/Materials/CornMob.mat
+  artifactKey: Guid(722fc5104832c4544b183a83e470029e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Materials/CornMob.mat using Guid(722fc5104832c4544b183a83e470029e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac961936109d178806346374234682fb') in 0.081711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/KajamansRoads/Materials/TreesMat.mat
+  artifactKey: Guid(b6403be70606b9f41a7c4e6ca4c72178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Materials/TreesMat.mat using Guid(b6403be70606b9f41a7c4e6ca4c72178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891dd68dad431ad83c0d2a1c202d03de') in 0.033235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/KajamansRoads/Materials/GrassMob.mat
+  artifactKey: Guid(8416ef8d926448d478f2d1436d6c6838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Materials/GrassMob.mat using Guid(8416ef8d926448d478f2d1436d6c6838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c106d9a515c4bb1ef03034820a9f761') in 0.025329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/KajamansRoads/Materials/4RoadMob.mat
+  artifactKey: Guid(6ce1fb43cedab4144bae5e1f87517e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Materials/4RoadMob.mat using Guid(6ce1fb43cedab4144bae5e1f87517e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40418ea373e36f6ec3c4fa8a1f6925b') in 0.049834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/KajamansRoads/Materials/2RoadMob.mat
+  artifactKey: Guid(ddf1b20df9693fa4bbdc3319e0fc8b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Materials/2RoadMob.mat using Guid(ddf1b20df9693fa4bbdc3319e0fc8b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ca8e0a212b9b88c334238d7a7cf004') in 0.033560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.283364 seconds.
+  path: Assets/KajamansRoads/Textures/Corn01b.png
+  artifactKey: Guid(32f4c41cb808c284fac4f01bfcf11414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/Corn01b.png using Guid(32f4c41cb808c284fac4f01bfcf11414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51bdd3528d7351ca550b6181747b082') in 0.066923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/KajamansRoads/Textures/Road_4lane_dark02_n.png
+  artifactKey: Guid(fb29a54e759be6649aaffa8b72c324aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/Road_4lane_dark02_n.png using Guid(fb29a54e759be6649aaffa8b72c324aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6382dc14bd78b622e03d3ba57d8e58d') in 0.035331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KajamansRoads/Textures/Guardrails01_n.png
+  artifactKey: Guid(e0b521b0906c76b4481b3b24bae4b672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/Guardrails01_n.png using Guid(e0b521b0906c76b4481b3b24bae4b672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a1ae1ed54569410a9b48f52543cecc') in 0.019534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/KajamansRoads/Textures/GravelRoad_01_n.png
+  artifactKey: Guid(37a3081863cdaf74eb9a690e35bfe94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/GravelRoad_01_n.png using Guid(37a3081863cdaf74eb9a690e35bfe94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9fd88a59219d0ca9664ffc94642019') in 0.032556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/KajamansRoads/Textures/Road_1lane_dark01.png
+  artifactKey: Guid(47ca022736d30b247a5cdd2e19d8eb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/Road_1lane_dark01.png using Guid(47ca022736d30b247a5cdd2e19d8eb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa16fee65d8c86d8b8290f7722035b1') in 0.024928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/KajamansRoads/Textures/MyListTree02b.png
+  artifactKey: Guid(fc603b4bb27e4ca419431f0579129b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/MyListTree02b.png using Guid(fc603b4bb27e4ca419431f0579129b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35efa85409e6958eeb94ab277f5b83bc') in 0.027942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/KajamansRoads/Textures/WideTreeLine.png
+  artifactKey: Guid(1437ac726a8caf741acb2f78a35f27c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/WideTreeLine.png using Guid(1437ac726a8caf741acb2f78a35f27c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2816cf48f291e8cca9ce89e3190347c6') in 0.033971 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
